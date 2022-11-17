@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:mood_app/widgets/defaultBody.dart';
 
@@ -9,10 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
-      home: MoodScaffold(
-        child: Container(),
-      ),
+      title: 'Mood App',
+      home: MoodScaffold(),
     );
   }
 }

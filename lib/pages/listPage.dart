@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 
-class ProgressPage extends StatelessWidget {
-  const ProgressPage({super.key});
+class ListPage extends StatelessWidget {
+  const ListPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("progress"),
+      body: Text("list"),
     );
   }
 }
