@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_constructors_in_immutables
 
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
@@ -36,10 +36,9 @@ class _MoodScaffoldState extends State<MoodScaffold> {
           // ignore: prefer_const_literals_to_create_immutables
           items: [
             TabItem(icon: Icons.home, title: 'Inicio'),
-            TabItem(icon: Icons.checklist_rounded, title: 'Tareas'),
+            TabItem(icon: Icons.checklist_rounded, title: 'Notas'),
             TabItem(
-                icon: Icons.sentiment_satisfied_alt_outlined,
-                title: 'Progreso'),
+                icon: Icons.sentiment_satisfied_alt_outlined, title: 'Ánimo'),
             TabItem(icon: Icons.stacked_bar_chart_sharp, title: 'Estadísticas'),
             TabItem(icon: Icons.person_sharp, title: 'Perfil'),
           ],
