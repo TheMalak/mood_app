@@ -2,6 +2,7 @@
 
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:mood_app/styles/color.dart';
 import '../pages/pages.dart';
 
 class MoodScaffold extends StatefulWidget {
@@ -15,21 +16,24 @@ class _MoodScaffoldState extends State<MoodScaffold> {
   int _currentPage = 2;
   // ignore: prefer_final_fields
   List<Widget> _pages = [
-    HomePage(),
-    ListPage(),
+    // HomePage(),
+    // ListPage(),
+    RelaxPage(),
+    DescriptionPage(),
     ProgressPage(),
     StatsPage(),
-    ProfilePage()
+    RelaxSongsPage()
+    // ProfilePage()
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.deepPurple.shade300,
+          backgroundColor: primaryColor,
         ),
         bottomNavigationBar: ConvexAppBar(
-          backgroundColor: Colors.deepPurple.shade300,
+          backgroundColor: primaryColor,
           initialActiveIndex: _currentPage,
           disableDefaultTabController: true,
           elevation: 0.0,
@@ -48,6 +52,6 @@ class _MoodScaffoldState extends State<MoodScaffold> {
             });
           },
         ),
-        body: SafeArea(child: _pages[_currentPage]));
+        body: gradientContainer(SafeArea(child: _pages[_currentPage])));
   }
 }

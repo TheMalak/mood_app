@@ -48,7 +48,7 @@ class _StatsPageState extends State<StatsPage> {
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),
               ),
               subtitle: Text(
-                "Ese día estuve estresada",
+                "Este día estuve estresada",
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
               ),
               trailing: Icon(Icons.sentiment_dissatisfied_rounded, size: 50.0),
@@ -63,10 +63,10 @@ class _StatsPageState extends State<StatsPage> {
                     fontSize: 20.0, fontWeight: FontWeight.w600, height: 0.0),
               ),
               subtitle: Text(
-                "Ese día estuve frustrada",
+                "Este día estuve frustrada",
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
               ),
-              trailing: Icon(Icons.sentiment_dissatisfied_rounded, size: 50.0),
+              trailing: Icon(Icons.sentiment_dissatisfied, size: 50.0),
               shape: Border(
                 bottom: BorderSide(),
               ),
@@ -78,10 +78,11 @@ class _StatsPageState extends State<StatsPage> {
                     fontSize: 20.0, fontWeight: FontWeight.w600, height: 0.0),
               ),
               subtitle: Text(
-                "Ese día estuve frustrada",
+                "Este día tuve ansiedad",
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
               ),
-              trailing: Icon(Icons.sentiment_dissatisfied_rounded, size: 50.0),
+              trailing:
+                  Icon(Icons.sentiment_very_dissatisfied_rounded, size: 50.0),
               shape: Border(
                 bottom: BorderSide(),
               ),
@@ -93,7 +94,7 @@ class _StatsPageState extends State<StatsPage> {
                     fontSize: 20.0, fontWeight: FontWeight.w600, height: 0.0),
               ),
               subtitle: Text(
-                "Ese día estuve frustrada",
+                "Este día estuve estresada",
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
               ),
               trailing: Icon(Icons.sentiment_dissatisfied_rounded, size: 50.0),
@@ -108,10 +109,11 @@ class _StatsPageState extends State<StatsPage> {
                     fontSize: 20.0, fontWeight: FontWeight.w600, height: 0.0),
               ),
               subtitle: Text(
-                "Ese día estuve frustrada",
+                "Este día tuve alegría",
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
               ),
-              trailing: Icon(Icons.sentiment_dissatisfied_rounded, size: 50.0),
+              trailing:
+                  Icon(Icons.sentiment_satisfied_alt_outlined, size: 50.0),
               shape: Border(
                 bottom: BorderSide(),
               ),

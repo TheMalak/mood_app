@@ -37,8 +37,9 @@ class ProgressPage extends StatelessWidget {
               Column(
                 children: [
                   Padding(
-                      child: Icon(Icons.settings, size: 80.0),
+                      child: Icon(Icons.nature_people, size: 80.0),
                       padding: EdgeInsets.symmetric(horizontal: 15.0)),
+                  Text("Actividad")
                 ],
               ),
               Column(
@@ -75,9 +76,14 @@ class ProgressPage extends StatelessWidget {
                   Text("Amistades")
                 ],
               ),
-              Padding(
-                  child: Icon(Icons.notifications, size: 80.0),
-                  padding: EdgeInsets.symmetric(horizontal: 15.0)),
+              Column(
+                children: [
+                  Padding(
+                      child: Icon(Icons.pending_outlined, size: 80.0),
+                      padding: EdgeInsets.symmetric(horizontal: 15.0)),
+                  Text("Otro")
+                ],
+              ),
             ],
           )
         ],
