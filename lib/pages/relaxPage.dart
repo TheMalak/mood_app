@@ -22,9 +22,9 @@ class _RelaxPageState extends State<RelaxPage> {
   double _percent = 0;
 
   List<String> _text478 = [
-    "Cierre la boca y coga aire por la nariz por 4 segundos",
+    "Cierre la boca y coja aire por la nariz por 4 segundos",
     "Aguante la respiración por 7 segundos",
-    "Exhale el aire a través de la boca por 8 Segundos"
+    "Exhale el aire a través de la boca por 8 segundos"
   ];
   String _currentText = '';
 
@@ -83,9 +83,14 @@ class _RelaxPageState extends State<RelaxPage> {
     );
   }
 
+  initState() {
+    const oneSec = const Duration(seconds: 1);
+    _timer = new Timer.periodic(oneSec, (timer) {});
+  }
+
   @override
   void dispose() {
-    setState(() {});
+    _timer.cancel();
     super.dispose();
   }
 

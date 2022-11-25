@@ -21,8 +21,8 @@ class _RelaxSongsPageState extends State<RelaxSongsPage> {
   ];
 
   List<String> _music = [
-    'soRmpPJOIwo',
     'jgpJVI3tDbY',
+    'soRmpPJOIwo',
     'vZsRWIVERLc',
     'XcPnhGhDGL8'
   ];
@@ -54,13 +54,13 @@ class _RelaxSongsPageState extends State<RelaxSongsPage> {
       };
   }
 
-  @override
-  void dispose() {
-    setState(() {
-      _controller.stopVideo();
-    });
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   setState(() {
+  //     _controller.stopVideo();
+  //   });
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {

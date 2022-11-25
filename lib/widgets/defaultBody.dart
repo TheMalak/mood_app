@@ -20,7 +20,8 @@ class _MoodScaffoldState extends State<MoodScaffold> {
     // ListPage(),
     RelaxPage(),
     DescriptionPage(),
-    ProgressPage(),
+    // ProgressPage(),
+    JokesPage(),
     StatsPage(),
     RelaxSongsPage()
     // ProfilePage()

@@ -6,3 +6,4 @@ export './profilePage.dart';
 export './descriptionPage.dart';
 export './relaxPage.dart';
 export './relaxSongs.dart';
+export './jokesPage.dart';
